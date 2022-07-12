@@ -13,7 +13,15 @@ The application will use historic data to look for trends in the happiness index
 
 How often is the report updated?
 
+# Technology 
 
+API for Seeking Alpha 
+Set up free account through RapidAPI and connect to Seeking Alpha API
+
+.env file to hold API key in format:
+
+X-RapidAPI-Key = "insert_key_here"
+X-RapidAPI-Host = "insert_host_here"
 
 # Citations
 
