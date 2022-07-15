@@ -1,6 +1,7 @@
-# group_repo
-A repository for group project 1
- 
+# World Equity Happiness Fund
+
+In this project we are 
+
 A fund manager is interested in building a Happiness Investment Porfolio made up of index funds, weighted by their overall rank in the World Happiness Report. 
 
 This analysis will use the World Happiness Report and Global Market Data for country based etfs.
@@ -11,7 +12,33 @@ The application will use historic data to look for trends in the happiness index
 
 How often is the report updated?
 
-# Technology 
+# What's in this folder?
+
+global_market_data_etfs.ipynb - API connection to the list of available etfs through the Global Market Data API
+
+global_market_data_api.ipynb - API pull for chosen etfs in variable ```etf_list``` and creation of pkl file to be used in the main_notebook
+
+world_happiness.ipynb
+
+main_notebook
+
+NOTE - CREATE RESOURCES FILE FOR TIDY UP AND CHECK ALL LINKS REMAIN IN TACT - E.G. PKL FILE CREATE AND SEND TO RESOURCES
+
+
+# Technologies 
+
+This project was built using python 3.7 with the following libraries:
+
+Pandas
+Pickle
+Replace?? Check library name - functools?
+Plotly
+requests
+os
+dotenv
+json
+
+# Installation Requirements
 
 API for [Global Market Data](https://rapidapi.com/attulab-attulab-default/api/global-market-data/)
 Set up free account through RapidAPI and connect to Global Market Data
@@ -20,6 +47,9 @@ Set up free account through RapidAPI and connect to Global Market Data
 
 X-RapidAPI-Key = "insert_key_here"
 X-RapidAPI-Host = "insert_host_here"
+
+
+
 
 # Citations
 
@@ -55,3 +85,9 @@ Next Steps.
 Take a moment to discuss potential next steps for the project.
 
 Discuss any additional questions that came up that you didn't have time to answer: if you had more weeks to work on your project, what would you research next?
+
+# Contributors 
+
+# License
+
+MIT
