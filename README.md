@@ -1,16 +1,53 @@
-# World Equity Happiness Fund
+# The Happy Fund
 
-In this project we are 
+* An executive summary/overview of the project and project goals.
 
-A fund manager is interested in building a Happiness Investment Porfolio made up of index funds, weighted by their overall rank in the World Happiness Report. 
+* Be sure to explain how this project relates to FinTech and Financial Programming.
+* Data Collection, Cleanup & Exploration
 
-This analysis will use the World Happiness Report and Global Market Data for country based etfs.
+In this project we are analysing a new investment portfolio, the Happy Fund, based on the scores of countries taken from the [World Happiness Report](https://worldhappiness.report/). We take the role of a fund manager in the early stages of launching a new investment fund. We compare the historic performance of the portfolio against a world equity index and present a decision on whether to progress with the deep analysis for the new portfolio construction. 
 
-Use a global index as a benchmark to compare against the new portfolio. 
+We read in CSV downloads for each year of the World Happiness Report and clean the data to filter out only the top 15 countries, by overall score. The data for all years is then joined together to display in one DataFrame.
 
-The application will use historic data to look for trends in the happiness index?
+Through an API, we collect the data for various country based exchange traded funds (ETFs). This data is cleaned to show only the close prices and all of the ETFs are then joined together in one DataFrame.
 
-How often is the report updated?
+Using PKL files, we bring the clean data from the World Happiness Report and the ETFs into a single notebook to calculate performace. 
+
+The portfolio is weighted by the Happiness Score of countries at the beginning of each year. The portfolio is then rebalanced annually, based on the updated scores. 
+
+The iShares MSCI World etf is used as a benchmark to compare the portfolio. 
+
+To clearly present the outcomes, we use the growth of $100 as a measure and a chart to illustrate our findings. With an animated plot graph, we show the changes in Happiness scores over the period. 
+
+## Data Issues
+
+*Some of the countries in the top 15 did not have corresponding ETFs through the API we were using.*
+We excluded Iceland, Luxembourg, Costa Rica and Puerto Rico from our data. 
+
+Luxembourg and Puerto Rico only appeared in the top 15 in 2 years. Iceland and Costa Rica are in the top 15 for each year in our dataset and could have a significant impact on the final outcomes.
+
+*The free API is limited to 100 calls.*
+We used month end data to limit the calls. The dataset would be more reliable with daily prices.
+
+*The performance is based on historical data.*
+We cannot predict the future, however historical trends are a good starting point to analyse the behaviour of an investment.
+
+## Outcomes
+
+INCLUDE SUMMARY AND IMAGES FROM REPORT
+
+## Future releases
+Use daily data 
+Expand the dataset to include the most recent years
+Find ETFs for the missing countries
+Research the underlying ETFs and consider alternative investment options 
+
+Monte Carlo?? 
+Other investment measures?
+
+Make the performance interactive - be able to change the investment date to rebase the growth of $100
+
+Create a rebalancing tool to automatically re-weight the portfolio each year.
 
 # What's in this folder?
 
@@ -29,9 +66,11 @@ NOTE - CREATE RESOURCES FILE FOR TIDY UP AND CHECK ALL LINKS REMAIN IN TACT - E.
 
 This project was built using python 3.7 with the following libraries:
 
+ADD ALL LINKS AND SHORT EXPLANATION OF EACH 
+
 Pandas
 Pickle
-Replace?? Check library name - functools?
+functools
 Plotly
 requests
 os
@@ -49,42 +88,11 @@ X-RapidAPI-Key = "insert_key_here"
 X-RapidAPI-Host = "insert_host_here"
 
 
-
-
 # Citations
 
 [World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+[Global Market Data](https://rapidapi.com/attulab-attulab-default/api/global-market-data/)
 
-# Presentation Requirements
-
-Each project group will prepare a formal, 10-minute presentation that covers:
-
-An executive summary/overview of the project and project goals.
-
-Be sure to explain how this project relates to FinTech and Financial Programming.
-Data Collection, Cleanup & Exploration
-
-Describe the source of your data and why you chose it for your project.
-
-Describe the collection, exploration, and cleanup process.
-
-The approach that your group took in achieving the project goals.
-
-Include any relevant code or demonstrations of the financial application or analysis.
-
-Discuss any unanticipated insights or problems that arose and how you resolved them.
-
-The results/conclusions of the financial application or analysis.
-
-Be sure to include relevant images or examples to support your work.
-
-If the project goal was not achieved, talk about the issues and what was attempted to resolve the issues.
-
-Next Steps.
-
-Take a moment to discuss potential next steps for the project.
-
-Discuss any additional questions that came up that you didn't have time to answer: if you had more weeks to work on your project, what would you research next?
 
 # Contributors 
 
