@@ -1,10 +1,5 @@
 # The Happy Fund
 
-* An executive summary/overview of the project and project goals.
-
-* Be sure to explain how this project relates to FinTech and Financial Programming.
-* Data Collection, Cleanup & Exploration
-
 In this project we are analysing a new investment portfolio, the Happy Fund, based on the scores of countries taken from the [World Happiness Report](https://worldhappiness.report/). We take the role of a fund manager in the early stages of launching a new investment fund. We compare the historic performance of the portfolio against a world equity index and present a decision on whether to progress with the deep analysis for the new portfolio construction. 
 
 We read in CSV downloads for each year of the World Happiness Report and clean the data to filter out only the top 15 countries, by overall score. The data for all years is then joined together to display in one DataFrame.
