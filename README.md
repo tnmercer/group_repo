@@ -61,15 +61,16 @@ NOTE - CREATE RESOURCES FILE FOR TIDY UP AND CHECK ALL LINKS REMAIN IN TACT - E.
 
 This project was built using python 3.7 with the following libraries:
 
-* [pandas](https://github.com/pandas-dev/pandas) - For available packages within pandas.
-* [pickle](https://docs.python.org/3/library/pickle.html) - For packages within pickle.
-* [functools](https://docs.python.org/3/library/functools.html) - For packages within functools.
-* [plotly](https://plotly.com/python/) - For packages within plotly.
-* [requests](https://github.com/WordPress/Requests) - For available packages within requests.
-* [os](https://github.com/matplotlib/matplotlib) - For available packages within matplotlib.
-* [dotenv](https://github.com/motdotla/dotenv) - For available packages within dotenv.
-* [json](https://www.json.org/json-en.html) - For available packages within json.
-* [jupyterlab](https://github.com/jupyterlab/jupyterlab) - For packages within jupyter lab.
+ADD ALL LINKS AND SHORT EXPLANATION OF EACH 
+
+Pandas
+Pickle
+functools
+Plotly
+requests
+os
+dotenv
+json
 
 # Installation Requirements
 
