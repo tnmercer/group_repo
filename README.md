@@ -97,6 +97,8 @@ X-RapidAPI-Host = "insert_host_here"
 
 # Contributors 
 
+Prospective Study created by the World-Renowned Market Research Team at Mercer-LeSieur LTD.
+
 # License
 
 MIT
