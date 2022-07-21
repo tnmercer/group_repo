@@ -54,7 +54,7 @@ The performance is shown in the below screenshot from our analysis:
 * Make the performance interactive - be able to change the investment date to rebase the growth of $100
 * Create a rebalancing tool to automatically re-weight the portfolio each year
 
-# What's in this folder?
+## What's in this folder?
 
 * main_notebook - where the magic happens. The main analysis.
 
@@ -69,11 +69,9 @@ The performance is shown in the below screenshot from our analysis:
  **Known bug:** If the main notebook encounters an error loading the pkl files, re run the code in the global_market_data_etfs.ipynb (note .env file required with API key) and world_happiness.ipynb. The pkl files must be created and opened using the same version of python.
 
 
-# Technologies 
+## Technologies 
 
 This project was built using python 3.7 with the following libraries:
-
-ADD ALL LINKS AND SHORT EXPLANATION OF EACH 
 
 * [pandas](https://github.com/pandas-dev/pandas) - For available packages within pandas.
 * [pickle](https://docs.python.org/3/library/pickle.html) - For available packages within pickle.
