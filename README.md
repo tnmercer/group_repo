@@ -29,7 +29,13 @@ We cannot predict the future, however historical trends are a good starting poin
 
 ## Outcomes
 
-INCLUDE SUMMARY AND IMAGES FROM REPORT
+Over the period 2015-2019 the Happy Portfolio outperformed the benchmark by 45%.
+
+The average annual returns were 2.7% higher and the standard deviation (risk) was lower.
+
+The distribution in returns was smaller than the benchmark and the sharpe ratio was higher, illustrating a better return on investment for the level of risk.
+
+We strongly recommend expanding the research into this new portfolio.
 
 ## Future releases
 Use daily data 
@@ -63,14 +69,14 @@ This project was built using python 3.7 with the following libraries:
 
 ADD ALL LINKS AND SHORT EXPLANATION OF EACH 
 
-Pandas
-Pickle
-functools
-Plotly
-requests
-os
-dotenv
-json
+* [pandas](https://github.com/pandas-dev/pandas) - For available packages within pandas.
+* [pickle](https://docs.python.org/3/library/pickle.html) - For available packages within pickle.
+* [functools](https://www.geeksforgeeks.org/functools-module-in-python/) - For available packages within functools.
+* [plotly](https://plotly.com/python/) - For available packages within plotly.
+* [requests](https://github.com/WordPress/Requests) - For available packages within requests.
+* [os](https://github.com/matplotlib/matplotlib) - For available packages within matplotlib.
+* [dotenv](https://github.com/motdotla/dotenv) - For available packages within dotenv.
+* [json](https://www.json.org/json-en.html) - For available packages within json.
 
 # Installation Requirements
 
